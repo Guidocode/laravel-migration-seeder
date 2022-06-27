@@ -1,9 +1,24 @@
+body {
+  background-color: #F8F7F9;
+}
+
 li {
   padding: 0 30px;
 }
+li a {
+  text-decoration: none;
+  color: rgba(254, 36, 20, 0.5137254902);
+}
+li a:hover, li a.active {
+  -webkit-text-decoration: double;
+          text-decoration: double;
+  color: #FE2214;
+}
 
 main {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   padding-top: 50px;
+  background-color: rgba(165, 42, 42, 0.26);
+  border-radius: 20px;
 }
