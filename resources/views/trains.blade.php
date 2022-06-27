@@ -4,7 +4,7 @@
 
 @section('content')
 
-    <h1>Trains</h1>
+    <h1 class="text-center pb-3">Trains</h1>
 
     <table class="table">
         <thead>
